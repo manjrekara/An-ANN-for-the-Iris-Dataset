@@ -17,7 +17,7 @@ from keras.utils import np_utils
 from sklearn.preprocessing import normalize
 
 # Locate and save dataset as df
-df = pd.read_csv('C:/Users/2017a/Documents/Vicarious Surgical/Iris description/iris_data.txt', header = None)
+df = pd.read_csv('iris_data.txt', header = None)
 # Assign column labels to the dataframe
 df.columns = ['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width', 'Species']
 # Save df as a separate .csv file to work on
@@ -54,9 +54,9 @@ x_test = x_normalized
 x_train, x_test, y_train, y_test = train_test_split(x,y,test_size=0.2,random_state=0)
 
 # Visualize the dataframe as a correlation matrix (optional)
-# sns.set(style='ticks')
-# sns.color_palette("icefire")
-# sns.pairplot(df.iloc[:,0:5],hue="Species")
+sns.set(style='ticks')
+sns.color_palette("icefire")
+sns.pairplot(df.iloc[:,0:5],hue="Species")
 
 # Visualize the training and testing shapes x and y 
 # Here we can confirm if the train/test split was appropriate to the percentage we chose
