@@ -1,6 +1,15 @@
 # An-ANN-for-the-Iris-Dataset
-Training and Validation of an Artificial Neural Network on the Fischer's Iris database (Fischer, 1936)
+Training and Validation of an Artificial Neural Network on the Fischer's Iris database (Fischer, 1936). This database is perhaps the best-known database to be found in the pattern recognition literature. The data set contains 3 classes of 50 instances each, where each class refers to a type of Iris plant. One class is linearly separable from the other two, whereas the latter are not linearly separable from each other.
 
+The data base contains the following attributes:
+• Sepal length in cm
+• Sepal width in cm
+• Petal length in cm
+• Petal width in cm
+• Class:
+  1. IRIS SETOSA
+  2. IRIS VERSICOLOUR
+  3. IRIS VIRGINICA
 
 Covariance Matrix:
 
