@@ -12,9 +12,12 @@ The data base contains the following attributes:
 • Petal width in cm
 
 • Class:
-  1. IRIS SETOSA
-  2. IRIS VERSICOLOUR
-  3. IRIS VIRGINICA
+    1. IRIS SETOSA
+    2. IRIS VERSICOLOUR
+    3. IRIS VIRGINICA
+
+
+
 
 Covariance Matrix:
 
